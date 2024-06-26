@@ -90,7 +90,7 @@ namespace pryEstructuraDeDatos1
             StreamWriter AD = new StreamWriter("Cola.csv", false, Encoding.UTF8);
             AD.WriteLine("Lista de espera\n");
             AD.WriteLine("Codigo;Nombre;Tramite");
-            while (aux != null)
+            while (aux!= null)
             {
                 AD.WriteLine(aux.Codigo);
                 AD.Write(";");
